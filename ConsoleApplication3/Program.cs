@@ -47,7 +47,7 @@ new Point {Name = "Thijs", X = 399.673, Y = 40, Z= 145.469},
 
 new Point { Name = "MartijnL", X = -73.857, Y = -40, Z = -418.862},
 new Point { Name = "Kamil", X = 377.492, Y = -200, Z = 0},
-
+new Point { Name = "Johan", X = 73.857, Y = 40, Z = -418.862},
     };
 
 
@@ -72,7 +72,7 @@ new Point { Name = "Kamil", X = 377.492, Y = -200, Z = 0},
 PlotRange -> All, Lighting -> ""Neutral"",
 PlotStyle -> Opacity[0.4], PlotPoints -> 50]");
       outputs.Add("(*AARDE*) Graphics3D[{Blue, Thickness[0.1], Line[{{0, 0, 0}, {0, 0, 0}}]}]");
-      outputs.Add("(*QLOGO*) Graphics3D[{Orange, Thickness[0.1], Line[{{0, 0, 427.2}, {0, 0, 427.2}}]}]");
+      //outputs.Add("(*QLOGO*) Graphics3D[{Orange, Thickness[0.1], Line[{{0, 0, 427.2}, {0, 0, 427.2}}]}]");
 
 
 
