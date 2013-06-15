@@ -48,6 +48,8 @@ new Point {Name = "Thijs", X = 399.673, Y = 40, Z= 145.469},
 new Point { Name = "MartijnL", X = -73.857, Y = -40, Z = -418.862},
 new Point { Name = "Kamil", X = 377.492, Y = -200, Z = 0},
 new Point { Name = "Johan", X = 73.857, Y = 40, Z = -418.862},
+new Point { Name = "Tom", X = -205, Y = -120, Z = -355.07},
+
     };
 
 
