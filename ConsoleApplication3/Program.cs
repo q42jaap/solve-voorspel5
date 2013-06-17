@@ -72,7 +72,7 @@ new Point { Name = "Katja", X = -205, Y=  120, Z = 355.07 },
       //      }
 
       List<string> outputs = new List<string>();
-      outputs.Add(@"(*sphere*) SphericalPlot3D[427.2, {\[Theta], 0, \[Pi]}, {\[Phi], 0, 2 \[Pi]}, Mesh -> None,
+      outputs.Add(@"(*sphere*) SphericalPlot3D[415, {\[Theta], 0, \[Pi]}, {\[Phi], 0, 2 \[Pi]}, Mesh -> None,
 PlotRange -> All, Lighting -> ""Neutral"",
 PlotStyle -> Opacity[0.8], PlotPoints -> 50]");
       outputs.Add("(*AARDE*) Graphics3D[{Blue, Thickness[0.1], Sphere[{0, 0, 0}, 25]}]");
@@ -96,26 +96,13 @@ PlotStyle -> Opacity[0.8], PlotPoints -> 50]");
 
         outputs.Add(
           string.Format(CultureInfo.InvariantCulture,
-            "(*{0}, D={4:0.00}*) Graphics3D[{{Green, Thickness[0.03], Sphere[{{{1}, {2}, {3}}}, 10]}}]",
+            "Graphics3D[Tooltip[{{Green, Thickness[0.03], Sphere[{{{1}, {2}, {3}}}, 10]}}, \"{0}\"]]",
             point.Name,
             point.X.Value,
             point.Y.Value,
             point.Z.Value,
             point.Distance ?? 0
-            ));
-        var extra =
-          string.Format(CultureInfo.InvariantCulture,
-            "(*{0}, D={7:0.00}*) Graphics3D[{{Green, Thickness[0.03], Line[{{{{{1}, {2}, {3}}}, {{{4}, {5}, {6}}}}}]}}]",
-            point.Name,
-            -point.Z.Value,
-            -point.Y.Value,
-            -point.X.Value,
-            -point.Z.Value,
-            -point.Y.Value,
-            -point.X.Value,
-            point.Distance ?? 0
-            );
-        //outputs.Add(extra);
+           ));
       }
 
       Console.WriteLine("Show[");
