@@ -24,34 +24,34 @@ namespace ConsoleApplication3
     private readonly static Point[] Points = new[]
     {
 
-new Point {Name = "Michiel", X =-289.175, Y=-200, Z=242.647},
-new Point {Name = "Rik", X =212.662, Y=40, Z=368.341},
-new Point {Name = "Jeroen", X =-129.11, Y=200, Z=-354.726},
-new Point {Name = "Jaap", X =0,Y =200, Z=-377.492}, //==> X was null => X=40?
-new Point {Name = "Bob", X =-242.647, Y=200, Z=289.175},
-new Point {Name = "Arian", X =0, Y=-40, Z=-425.323}, //==> X was null => X=24?
-new Point {Name = "Bas", X =-188.746, Y=-200, Z=-326.917},
-
-new Point {Name = "Marcel", X =-205, Y=-120, Z=355.07},
-new Point {Name = "Tim", X=-355.07, Y=-120, Z= 205},
-
-new Point {Name = "Chris", X =-65.551, Y=200, Z=-371.757},
-new Point {Name = "Remco", X =242.647, Y=-200, Z=289.175},
-new Point {Name = "Lukas", X =377.492, Y=200, Z= 0},
-new Point {Name = "Christiaan", X =263.543, Y=120, Z=314.078},
-new Point {Name = "Roelf", X =242.647, Y=200, Z=289.175},
-new Point {Name = "Guus", X =273.393, Y=-40, Z=325.817},
-new Point {Name = "Arjen", X = 425.323, Y= 40, Z= 0},
-new Point {Name = "JasperK", X = 410, Y = 120, Z = 0},
-new Point {Name = "Thijs", X = 399.673, Y = 40, Z= 145.469},
-
+new Point { Name = "Michiel", X =-289.175, Y=-200, Z=242.647},
+new Point { Name = "Rik", X =212.662, Y=40, Z=368.341},
+new Point { Name = "Jeroen", X =-129.11, Y=200, Z=-354.726},
+new Point { Name = "Jaap", X =0,Y =200, Z=-377.492}, //==> X was null => X=40?
+new Point { Name = "Bob", X =-242.647, Y=200, Z=289.175},
+new Point { Name = "Arian", X =0, Y=-40, Z=-425.323}, //==> X was null => X=24?
+new Point { Name = "Bas", X =-188.746, Y=-200, Z=-326.917},
+new Point { Name = "Marcel", X =-205, Y=-120, Z=355.07},
+new Point { Name = "Tim", X=-355.07, Y=-120, Z= 205},
+new Point { Name = "Chris", X =-65.551, Y=200, Z=-371.757},
+new Point { Name = "Remco", X =242.647, Y=-200, Z=289.175},
+new Point { Name = "Lukas", X =377.492, Y=200, Z= 0},
+new Point { Name = "Christiaan", X =263.543, Y=120, Z=314.078},
+new Point { Name = "Roelf", X =242.647, Y=200, Z=289.175},
+new Point { Name = "Guus", X =273.393, Y=-40, Z=325.817},
+new Point { Name = "Arjen", X = 425.323, Y= 40, Z= 0},
+new Point { Name = "JasperK", X = 410, Y = 120, Z = 0},
+new Point { Name = "Thijs", X = 399.673, Y = 40, Z= 145.469},
 new Point { Name = "MartijnL", X = -73.857, Y = -40, Z = -418.862},
 new Point { Name = "Kamil", X = 377.492, Y = -200, Z = 0},
 new Point { Name = "Johan", X = 73.857, Y = 40, Z = -418.862},
-
-new Point {Name = "Korjan", X = 71.196, Y = 120, Z= -403.771},
+new Point { Name = "Korjan", X = 71.196, Y = 120, Z= -403.771},
 new Point { Name = "Tom", X = -205, Y = -120, Z = -355.07},
-
+new Point { Name = "Laurens", X = 314.078, Y = -120, Z =  263.543 },
+new Point { Name = "Sander", X = -212.662, Y = -40, Z = -368.341 },
+new Point { Name = "JasperH", X = -188.746, Y = 200, Z =  -326.917 },
+new Point { Name = "Leonard", X = -368.341, Y = 40, Z = 212.662 },
+new Point { Name = "Katja", X = -205, Y=  120, Z = 355.07 },
     };
 
 
