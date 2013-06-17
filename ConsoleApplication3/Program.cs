@@ -25,7 +25,7 @@ namespace ConsoleApplication3
     {
 
 new Point { Name = "Michiel", X =-289.175, Y=-200, Z=242.647},
-new Point { Name = "Rik", X =212.662, Y=40, Z=368.341},
+new Point { Name = "Rik", X =-212.662, Y=40, Z=368.341},
 new Point { Name = "Jeroen", X =-129.11, Y=200, Z=-354.726},
 new Point { Name = "Jaap", X =0,Y =200, Z=-377.492}, //==> X was null => X=40?
 new Point { Name = "Bob", X =-242.647, Y=200, Z=289.175},
