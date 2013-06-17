@@ -48,6 +48,8 @@ new Point {Name = "Thijs", X = 399.673, Y = 40, Z= 145.469},
 new Point { Name = "MartijnL", X = -73.857, Y = -40, Z = -418.862},
 new Point { Name = "Kamil", X = 377.492, Y = -200, Z = 0},
 new Point { Name = "Johan", X = 73.857, Y = 40, Z = -418.862},
+
+new Point {Name = "Korjan", X = 71.196, Y = 120, Z= -403.771},
     };
 
 
@@ -70,8 +72,8 @@ new Point { Name = "Johan", X = 73.857, Y = 40, Z = -418.862},
       List<string> outputs = new List<string>();
       outputs.Add(@"(*sphere*) SphericalPlot3D[427.2, {\[Theta], 0, \[Pi]}, {\[Phi], 0, 2 \[Pi]}, Mesh -> None,
 PlotRange -> All, Lighting -> ""Neutral"",
-PlotStyle -> Opacity[0.4], PlotPoints -> 50]");
-      outputs.Add("(*AARDE*) Graphics3D[{Blue, Thickness[0.1], Line[{{0, 0, 0}, {0, 0, 0}}]}]");
+PlotStyle -> Opacity[0.8], PlotPoints -> 50]");
+      outputs.Add("(*AARDE*) Graphics3D[{Blue, Thickness[0.1], Sphere[{0, 0, 0}, 25]}]");
       //outputs.Add("(*QLOGO*) Graphics3D[{Orange, Thickness[0.1], Line[{{0, 0, 427.2}, {0, 0, 427.2}}]}]");
 
 
@@ -92,11 +94,8 @@ PlotStyle -> Opacity[0.4], PlotPoints -> 50]");
 
         outputs.Add(
           string.Format(CultureInfo.InvariantCulture,
-            "(*{0}, D={7:0.00}*) Graphics3D[{{Green, Thickness[0.03], Line[{{{{{1}, {2}, {3}}}, {{{4}, {5}, {6}}}}}]}}]",
+            "(*{0}, D={4:0.00}*) Graphics3D[{{Green, Thickness[0.03], Sphere[{{{1}, {2}, {3}}}, 10]}}]",
             point.Name,
-            point.X.Value,
-            point.Y.Value,
-            point.Z.Value,
             point.X.Value,
             point.Y.Value,
             point.Z.Value,
