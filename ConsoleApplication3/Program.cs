@@ -52,6 +52,8 @@ new Point { Name = "Sander", X = -212.662, Y = -40, Z = -368.341 },
 new Point { Name = "JasperH", X = -188.746, Y = 200, Z =  -326.917 },
 new Point { Name = "Leonard", X = -368.341, Y = 40, Z = 212.662 },
 new Point { Name = "Katja", X = -205, Y=  120, Z = 355.07 },
+new Point { Name = "Benjamin", X = -212.662, Y = 40, Z = -368.341 },
+new Point { Name = "Huib", X = 403.771, Y = 120, Z = 71.196},
     };
 
 
@@ -74,7 +76,7 @@ new Point { Name = "Katja", X = -205, Y=  120, Z = 355.07 },
       List<string> outputs = new List<string>();
       outputs.Add(@"(*sphere*) SphericalPlot3D[415, {\[Theta], 0, \[Pi]}, {\[Phi], 0, 2 \[Pi]}, Mesh -> None,
 PlotRange -> All, Lighting -> ""Neutral"",
-PlotStyle -> Opacity[0.8], PlotPoints -> 50]");
+PlotStyle -> Opacity[0.6], PlotPoints -> 50]");
       outputs.Add("(*AARDE*) Graphics3D[{Blue, Thickness[0.1], Sphere[{0, 0, 0}, 25]}]");
       //outputs.Add("(*QLOGO*) Graphics3D[{Orange, Thickness[0.1], Line[{{0, 0, 427.2}, {0, 0, 427.2}}]}]");
 
